@@ -775,7 +775,7 @@ html{
     font-weight: 800;
 }
 
-.blog-container .blog-header .btn{
+.blog-container .blog-header .btn {
     width: 15rem;
     height: 4rem;
     font-size: 2rem;
@@ -785,6 +785,19 @@ html{
     text-align: center;
     border-radius: .5rem;
     line-height: 3.5rem;
+}
+
+.href{
+    display: flex;
+    background: var(--laranja);  
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    width: 125px;
+    height: 60px;
 }
 
 .blog-container .blog-header .btn button{
