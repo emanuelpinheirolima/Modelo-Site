@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
 
 :root{
-    --laranja: #F57059;
+    --laranja: #be18d4;
 }
 
 *{
@@ -15,7 +15,7 @@
 }
 
 *::selection{
-    background: #fff;
+    background: #d16ad4;
     color: var(--laranja);
 }
 
@@ -32,7 +32,7 @@ html{
     position: absolute;
     width: 70vw;
     height: 100vh;
-    background: #ffebcd;
+    background: #e285eb;
     opacity: 0.4;
     clip-path: polygon(100% 0, 94% 21%, 72% 30%, 70% 52%, 50% 61%, 48% 83%, 21% 85%, 0 100%, 0% 35%, 0 0);
     z-index: -1;
@@ -49,7 +49,7 @@ html{
     font-weight: 800;
     font-size: 2rem;
     margin-top: 2rem;
-    text-shadow: .3rem .2rem .1rem rgb(206, 203, 203);
+    text-shadow: .3rem .2rem .1rem rgb(219, 122, 243);
 }
 
 .header-container .header .navbar{
