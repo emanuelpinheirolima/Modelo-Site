@@ -1,0 +1,20 @@
+﻿Simples, abre o CSS pega da linha 9 a linha 19 apaga e cola o código abaixo 😁
+}
+@font-face {
+    font-family: 'Lemon Milk';
+    src: url('./fonts/lemon_milk.otf') format('opentype');
+}
+
+
+I have a million signs that my fortune just begun
+
+You got me jumping like
+Boom shakalaka, boom shakalaka (ah)
+Boom shakalaka, boom shakalaka (oh)
+B-boom shakalak, boom shakalak (ah)
+Wanna hold you down (yeah)
+
+B-boom shakalaka, boom shakalaka (ah)
+Boom shakalaka, boom shakalaka (oh)
+Boom shakalak, boom shakalak (ah)
+Wanna hold you down

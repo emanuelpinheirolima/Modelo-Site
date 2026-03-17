@@ -3,11 +3,15 @@
 :root{
     --laranja: #be18d4;
 }
-
-*{
-    font-family: "Manrope", sans-serif;
-    margin: 0; padding: 0;
-    outline: none; border: none;
+ body {
+    background-color: #cd98da; 
+}
+* {
+    font-family: "Lemon Milk", sans-serif; 
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
     box-sizing: border-box;
     text-decoration: none;
     text-transform: capitalize;
@@ -15,7 +19,7 @@
 }
 
 *::selection{
-    background: #d16ad4;
+    background: #8a588b;
     color: var(--laranja);
 }
 
@@ -28,15 +32,7 @@ html{
 
 /* header section */
 
-.header-container .background{
-    position: absolute;
-    width: 70vw;
-    height: 100vh;
-    background: #e285eb;
-    opacity: 0.4;
-    clip-path: polygon(100% 0, 94% 21%, 72% 30%, 70% 52%, 50% 61%, 48% 83%, 21% 85%, 0 100%, 0% 35%, 0 0);
-    z-index: -1;
-}
+
 
 .header-container .header{
     display: flex;
@@ -49,7 +45,7 @@ html{
     font-weight: 800;
     font-size: 2rem;
     margin-top: 2rem;
-    text-shadow: .3rem .2rem .1rem rgb(219, 122, 243);
+    text-shadow: .3rem .2rem .1rem #525252;
 }
 
 .header-container .header .navbar{
@@ -64,7 +60,7 @@ html{
     font-size: 1.5rem;
     color: #000;
     font-weight: 600;
-    text-shadow: .3rem .2rem .1rem rgb(206, 203, 203);
+
 }
 
 .header-container .header .navbar a .fa-angle-down{
@@ -79,11 +75,15 @@ html{
 }
 
 .header-container .header .buttons .sing-in{
-    font-size: 1.5rem;
-    background: transparent;
+    height: 5rem;
+    width: 12rem;
     cursor: pointer;
+    background: var(--laranja);
+    color: #fff;
+    font-size: 1.5rem;
     font-weight: 600;
-    text-shadow: .3rem .2rem .1rem rgb(206, 203, 203);
+    border-radius: .5rem;
+    box-shadow: 0rem .3rem .3rem rgb(139, 128, 128);    
     
 }
 
@@ -134,31 +134,6 @@ html{
     font-size: 1.7rem;
 }
 
-.home .info-container .box-email{
-    margin-top: 2rem;
-    background: #fff;
-    padding: 1rem;
-    box-shadow: .1rem .1rem 1rem .1rem rgb(202, 193, 193);
-}
-
-.home .info-container .box-email input{
-    width: 32rem;
-    height: 7rem;
-    font-size: 2rem;
-    margin-left: 2rem;
-    font-weight: bolder;
-}
-
-.home .info-container .box-email .submit{
-    width: 15rem;
-    height: 6rem;
-    background: #000;
-    color: #fff;
-    font-size: 2rem;
-    font-weight: 600;
-    cursor: pointer;
-    border-radius: .5rem;
-}
 
 .home .info-container .infos-footer{
     display: flex;
@@ -195,47 +170,40 @@ html{
     height: 100%;
     object-fit: cover;
 }
-
-/* patrocinios section */
-
-.patrocinios{
-    display: flex;
-    flex-direction: column;
+ .home .info-container .image{
+    width: auto;
     height: auto;
-    width: 100vw;
-    border-top: .1rem solid #C4C4C4;
-    border-bottom: .1rem solid #C4C4C4;
 }
 
-.patrocinios h1{
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 4rem;
-    padding: 2rem;
+.patrocinios h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding: 0 20px;
 }
 
-.patrocinios .images{
+.patrocinios .images {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
-    gap: 3rem;
-    margin-left: 7rem;
-    margin-right: 7rem;
+    justify-content: center;
+    align-items: center;
+    gap: auto;
+    max-width: auto;
+    margin: 0 auto;
 }
 
-.patrocinios .images .imagem-patrocinio{
-    margin: 4rem auto;
-    height: 5rem;
-    width: 20rem;
+.patrocinios .images .imagem-patrocinio img {
+    width: 250px;
+    height: auto;
+    display: block;
+    transition: transform 0.3s;
 }
 
-.patrocinios .images .imagem-patrocinio img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.patrocinios .images .imagem-patrocinio img:hover {
+    transform: scale(1.1);
 }
 
-/* Process section */
+
 
 .process-container{
     display: flex;
