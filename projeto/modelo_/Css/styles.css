@@ -204,7 +204,6 @@ html{
 }
 
 
-
 .process-container{
     display: flex;
     flex-direction: column;
@@ -263,13 +262,17 @@ html{
     width: 5rem;
     z-index: 10;
     position: relative;
-    top: -2rem;
+    top: -1rem;
     margin-left: 5rem;
-    margin-right: 5rem;
+    margin-right: 10rem;
+
 }
 
+
+
+
 .process-container .linha .image img{
-    width: 100%;
+    width: 200%;
     height: 100%;
     object-fit: cover;
 }
@@ -763,7 +766,7 @@ html{
 }
 
 .href{
-    display: flex;
+    display: auto;
     background: var(--laranja);  
     text-align: center;
     border-radius: 15px;
@@ -771,8 +774,8 @@ html{
     justify-content: center;
     align-items: center;
     font-size: 15px;
-    width: 125px;
-    height: 60px;
+    width: 200px;
+    height: 45px;
 }
 
 .blog-container .blog-header .btn button{
